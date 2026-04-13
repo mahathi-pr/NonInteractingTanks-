@@ -70,11 +70,12 @@ NonInteractingTanks/
 
 ## 🚀 How to Run the Application
 
+---
+
 ### Step 1: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-```
 
 ---
 
