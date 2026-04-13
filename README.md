@@ -1,7 +1,7 @@
 # NonInteractingTanks-
 # OpenModelica Python GUI – Two Connected Tanks
 
-## 📌 Project Description
+##  Project Description
 
 This project integrates an **OpenModelica simulation model** with a **Python-based GUI application**.
 
@@ -12,7 +12,7 @@ The goal is to:
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 The model represents **two non-interacting tanks** connected in series.
 The system simulates fluid flow dynamics using differential equations.
@@ -21,7 +21,7 @@ The model was developed and compiled using **OpenModelica**.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * Python 3.10+
 * PyQt6 (GUI framework)
@@ -30,7 +30,7 @@ The model was developed and compiled using **OpenModelica**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 NonInteractingTanks/
@@ -57,7 +57,7 @@ NonInteractingTanks/
 
 ```
 
-## ⚙️ How the System Works
+## How the System Works
 
 1. The Modelica model is compiled into an executable (`.exe`) using OpenModelica.
 2. A `.bat` file is generated to properly run the executable with required libraries.
@@ -69,7 +69,7 @@ NonInteractingTanks/
 
 ---
 
-## 🚀 How to Run the Application
+## How to Run the Application
 
 ---
 
@@ -105,7 +105,7 @@ NonInteractingTanks.TwoConnectedTanks/TwoConnectedTanks.bat
 
 ---
 
-## ⚠️ Input Constraints
+##  Input Constraints
 
 The application enforces the condition:
 
@@ -117,7 +117,7 @@ Invalid inputs will show an error message.
 
 ---
 
-## 📊 Output
+##  Output
 
 * Simulation results are stored in:
 
@@ -128,7 +128,7 @@ Invalid inputs will show an error message.
 
 ---
 
-## ❗ Important Notes
+##  Important Notes
 
 * Always select the `.bat` file (not `.exe`) in the GUI.
 * The `bin/` folder must be present for the executable to run.
@@ -136,7 +136,7 @@ Invalid inputs will show an error message.
 
 ---
 
-## 🧩 OOP Design
+##  OOP Design
 
 The application is implemented using object-oriented programming:
 
