@@ -35,19 +35,25 @@ The model was developed and compiled using **OpenModelica**.
 ```
 NonInteractingTanks/
 │
-├── app.py                          # Python GUI application
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-│
-├── bin/                            # OpenModelica runtime DLLs (IMPORTANT)
+├── app.py                     # Python GUI application
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
 │
 └── NonInteractingTanks.TwoConnectedTanks/
-    ├── TwoConnectedTanks.exe       # Model executable
-    ├── TwoConnectedTanks.bat       # Launcher script (used by GUI)
-    ├── TwoConnectedTanks_res.mat   # Simulation output
-    ├── *.json / *.bin / *.data     # Supporting files
-```
-
+    ├── TwoConnectedTanks.exe              # Model executable
+    ├── TwoConnectedTanks.bat              # Launcher script (used by GUI)
+    ├── TwoConnectedTanks_res.mat          # Simulation output file
+    ├── TwoConnectedTanks.log              # Log file
+    ├── TwoConnectedTanks_info.json        # Simulation info
+    ├── TwoConnectedTanks_init.xml         # Initialization data
+    ├── TwoConnectedTanks_prof.intdata     # Profiling data
+    ├── TwoConnectedTanks_prof.realdata    # Profiling data
+    ├── TwoConnectedTanks_JacA.bin         # Jacobian data
+    │
+    ├── libOpenModelicaRuntimeC.dll        # OpenModelica runtime
+    ├── libgcc_s_seh-1.dll                 # GCC dependency
+    ├── libstdc++-6.dll                   # C++ runtime
+    ├── libwinpthread-1.dll               # Threading library
 ---
 
 ## ⚙️ How the System Works
