@@ -54,7 +54,8 @@ NonInteractingTanks/
     ├── libgcc_s_seh-1.dll                 # GCC dependency
     ├── libstdc++-6.dll                   # C++ runtime
     ├── libwinpthread-1.dll               # Threading library
----
+
+```
 
 ## ⚙️ How the System Works
 
@@ -76,6 +77,7 @@ NonInteractingTanks/
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### Step 2: Run the GUI
 
