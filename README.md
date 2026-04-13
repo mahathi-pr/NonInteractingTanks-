@@ -138,23 +138,3 @@ The application is implemented using object-oriented programming:
 
 ---
 
-## 📈 Evaluation Criteria Coverage
-
-| Criteria            | Status |
-| ------------------- | ------ |
-| Code Quality (PEP8) | ✅      |
-| Documentation       | ✅      |
-| User Experience     | ✅      |
-| OOP Implementation  | ✅      |
-
----
-
-## 👤 Author
-
-Golla Mahathi
-
----
-
-## 📬 Submission
-
-The project is submitted via GitHub as per FOSSEE guidelines.
