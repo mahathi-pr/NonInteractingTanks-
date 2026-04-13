@@ -144,4 +144,4 @@ The application is implemented using object-oriented programming:
 * Functions are modular and reusable
 
 ---
- crct step and step 2 part and give me full readme as it is
+ 
